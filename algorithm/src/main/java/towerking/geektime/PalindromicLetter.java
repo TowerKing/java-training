@@ -21,6 +21,8 @@ public class PalindromicLetter {
             return false;
         }
 
+        System.out.print(source + " 是不是回文字符串呢? (true/false): ");
+
         NodeList nodeList = new NodeList(source);
         NodeList.Node fast = nodeList.head;
         NodeList.Node slow = nodeList.head;
